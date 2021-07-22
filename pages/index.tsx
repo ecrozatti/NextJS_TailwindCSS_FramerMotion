@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { motion, Variants } from 'framer-motion'
+import Link from 'next/link';
+import { motion, Variants } from 'framer-motion';
 
 interface CardProps {
   href: string
@@ -31,48 +31,59 @@ const variants: Variants = {
     transition: {
       duration: 1,
       delayChildren: 1,
-      staggerChildren: 0.7
+      staggerChildren: 0.6
     }
   }
 }
 
 export default function Home() {
-  return (
-    <div>
-      <motion.h1
-        className="text-4xl mt-10 leading-none font-extrabold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl md:mt-24"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2 }}
-      >
-        Construa sites modernos com agilidade sem precisar sair do HTML.
-      </motion.h1>
+   return (
+      <div>
+         <motion.h1
+            className="text-4xl mt-10 leading-none font-extrabold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl md:mt-24"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2 }}
+         >
+            Interface moderna com Next.js, Tailwind CSS e Framer Motion.
+         </motion.h1>
 
-      <motion.div
-        className="w-full grid grid-cols-1 grid-rows-3 gap-4 mt-10 md:grid-cols-3 md:grid-rows-1 md:mt-24"
-        transition={{
-          delay: 2
-        }}
-        variants={variants}
-        initial="hidden"
-        animate="visible"
-      >
-        <Card
-          href={'/nextjs'}
-          imgSrc={'/img/nextjs.svg'}
-          layoutId={'nextjs-logo'}
-        />
-        <Card
-          href={'/tailwind'}
-          imgSrc={'/img/tailwind.svg'}
-          layoutId={'tailwind-logo'}
-        />
-        <Card
-          href={'/framermotion'}
-          imgSrc={'/img/framermotion.svg'}
-          layoutId={'framermotion-logo'}
-        />
-      </motion.div>
-    </div>
-  )
+         <motion.h2
+            className="text-base mt-5 leading-none text-gray-300 sm:text-lg lg:text-xl md:mt-10 animate-bounce"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2, delay: 2.5 }}
+         >
+            <a href="https://www.linkedin.com/in/eric-crozatti-1447688a" target="_blank">
+               Desenvolvido por Eric Crozatti Ferreira
+            </a>
+         </motion.h2>
+
+         <motion.div
+            className="w-full grid grid-cols-1 grid-rows-3 gap-4 mt-10 md:grid-cols-3 md:grid-rows-1 md:mt-24"
+            transition={{
+               delay: 2
+            }}
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+         >
+            <Card
+               href={'/nextjs'}
+               imgSrc={'/img/nextjs.svg'}
+               layoutId={'nextjs-logo'}
+            />
+            <Card
+               href={'/tailwind'}
+               imgSrc={'/img/tailwind.svg'}
+               layoutId={'tailwind-logo'}
+            />
+            <Card
+               href={'/framermotion'}
+               imgSrc={'/img/framermotion.svg'}
+               layoutId={'framermotion-logo'}
+            />
+         </motion.div>
+      </div>
+   )
 }
