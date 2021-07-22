@@ -1,7 +1,3 @@
-# Workshop - Next.js & TailwindCSS & Framer Motion
-
-We'll build a lightweight, animated & responsive small website.
-
 <p align="center">
   <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -10,15 +6,15 @@ We'll build a lightweight, animated & responsive small website.
 </p>
 
 <h1 align="center">
-    <img alt="NextJS-TailwindCSS-FramerMotion" src="https://github.com/ecrozatti/NextJS_TailwindCSS_FramerMotion/blob/master/.github/interface.png" />
+    <img alt="NextJS-TailwindCSS-FramerMotion" src="https://github.com/ecrozatti/NextJS_TailwindCSS_FramerMotion/blob/main/.github/interface.png" />
 </h1>
 
 ## :page_with_curl: Sobre
-![GitHub language count](https://img.shields.io/github/languages/count/ecrozatti/GoBarBer_Web)
-![GitHub top language](https://img.shields.io/github/languages/top/ecrozatti/GoBarBer_Web)
-![GitHub repo size](https://img.shields.io/github/repo-size/ecrozatti/GoBarBer_Web)
-![GitHub](https://img.shields.io/github/license/ecrozatti/GoBarBer_Web)
-![GitHub last commit](https://img.shields.io/github/last-commit/ecrozatti/GoBarBer_Web)
+![GitHub language count](https://img.shields.io/github/languages/count/ecrozatti/NextJS_TailwindCSS_FramerMotion)
+![GitHub top language](https://img.shields.io/github/languages/top/ecrozatti/NextJS_TailwindCSS_FramerMotion)
+![GitHub repo size](https://img.shields.io/github/repo-size/ecrozatti/NextJS_TailwindCSS_FramerMotion)
+![GitHub](https://img.shields.io/github/license/ecrozatti/NextJS_TailwindCSS_FramerMotion)
+![GitHub last commit](https://img.shields.io/github/last-commit/ecrozatti/NextJS_TailwindCSS_FramerMotion)
 
 Interface moderna, responsiva, animada e criada com produtividade, durante o Expert Club da Rocketseat.
 
