@@ -1,3 +1,7 @@
+<h1 align="center">
+    <img alt="experts-club" src="https://github.com/ecrozatti/NextJS_TailwindCSS_FramerMotion/blob/main/.github/experts-club.png" width="250px" />
+</h1>
+
 <p align="center">
   <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -5,9 +9,9 @@
   <a href="#rocket-começando">Começando</a>
 </p>
 
-<h1 align="center">
-    <img alt="NextJS-TailwindCSS-FramerMotion" src="https://github.com/ecrozatti/NextJS_TailwindCSS_FramerMotion/blob/main/.github/interface.png" />
-</h1>
+Web                        |  Mobile
+:-------------------------:|:-------------------------:
+![](https://github.com/ecrozatti/NextJS_TailwindCSS_FramerMotion/blob/main/.github/interface.gif)  |  ![](https://github.com/ecrozatti/NextJS_TailwindCSS_FramerMotion/blob/main/.github/mobile.gif)
 
 ## :page_with_curl: Sobre
 ![GitHub language count](https://img.shields.io/github/languages/count/ecrozatti/NextJS_TailwindCSS_FramerMotion)
@@ -16,7 +20,9 @@
 ![GitHub](https://img.shields.io/github/license/ecrozatti/NextJS_TailwindCSS_FramerMotion)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ecrozatti/NextJS_TailwindCSS_FramerMotion)
 
-Interface moderna, responsiva, animada e criada com produtividade, durante o Expert Club da Rocketseat.
+Interface moderna e repsonsiva, desenvolvida durante aula do grupo Experts Club da Rocketseat.
+
+Páginas animadas com Next.js, Framer Motion e estilização com Tailwind CSS.
 
 Responsividade (Mobile First) e transições entre as rotas da aplicação.
 
